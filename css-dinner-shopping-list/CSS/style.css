@@ -1,0 +1,118 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #3B3E45;
+	color: #D5D4DC;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+.container {
+	width: 610px;
+	margin: 0 auto;
+	padding-top: 0;
+
+}
+
+header {
+	background-color: #4A4F55;
+	color: #D27B79;
+	text-align: center;
+	
+	padding-bottom: 19px;
+}
+
+h1 + span {
+	font-size: 20px;
+}
+
+h1 {
+	margin-bottom: 5px;
+	margin-top: 0;
+	padding-top: 15px;
+}
+
+
+
+section .container{
+	background-color: #88849F;
+	margin-top: 28px;
+}
+
+div .inputrow {
+	padding: 13px;
+	font-size: 20px;
+}
+
+.styletext {
+	font-size: 12px;
+	color: #B4B1C6;
+	vertical-align: middle;
+}
+
+*{transition: all .1s ease-in;}
+
+div .inputrow:hover {
+	border-top: 3px solid #FFFEFF;
+	border-bottom: 3px solid #FFFEFF;
+	background-color: #625E77;
+	font-weight: bold;
+}
+
+div .inputrow:active {
+	border-top: 3px solid #FFFEFF;
+	border-bottom: 3px solid #FFFEFF;
+	font-weight: bold;
+	background-color: #282923;
+}
+
+
+
+.input26 {
+	padding: 13px;
+	font-size: 20px;
+	background-color: #7A7593;
+	text-decoration: line-through;
+	color: #A29EB7;
+	
+}
+
+.input26 span {
+	color: #9591AC;
+}
+
+[type="button"] {
+	background-color: #4A4F55;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	color: #D27B79;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+[type="button"]:hover {
+	background-color: #282923;
+	width: 100%;
+	border: 3px solid #FFFEFF;
+	padding: 15px;
+	color: #D27B79;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+[type="button"]:active {
+	transform: translateY(4px);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color: #625E77;
+}
+
+input[type=checkbox] {
+  transform: scale(1.72);
+}
+
+.inputrow .styletext:after {
+	content: ")"
+}
+
+.inputrow .styletext:before {
+	content: "("
+}

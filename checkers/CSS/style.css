@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+tr {
+	min-width: 50px;
+}
+
+td {
+	width: 70px;
+	height: 70px;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+	background: url(../img/back.jpg);
+	opacity: 0.9;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+	background: url(../img/back.jpg);
+	opacity: 0.9;
+}
+tr:nth-child(even) td:nth-child(odd) {
+	background: url(../img/back2.jpg);
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+	background: url(../img/back2.jpg);
+}
+
+table {
+	border: 2px solid black;
+	background-color: #DDC78B;
+}
+td {
+	
+	position: relative;
+}
+
+.figure {
+	background-color: brown;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 17px;
+	left: 17px;
+}
+
+.fas {
+	color: white;
+	position: absolute;
+	left: 20px;
+	font-size: 40px;
+	top: 15px;
+}
+
+.fas_black {
+	color: black;
+}
+
+.red_border {
+	border: 2px solid red;
+}
+
+td:hover{
+	border: 2px solid white;
+}

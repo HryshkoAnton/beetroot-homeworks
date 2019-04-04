@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+    padding: 0;
+  	box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+
+
+body {
+	background-color: #3399CC;
+    color: #FFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+.container {
+	width: 630px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+span {
+	font-size: 19px;
+}
+
+.ds-city-list {
+	font-size: 0;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+
+
+}
+
+.ds-city-list li {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid white;
+	padding: 20px 0 15px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+.list li.ds-single {
+    width: 25%;
+}
+
+.list li.ds-double {
+    width: 50%;
+}
+
+.list li.ds-quadruple {
+    width: 100%;
+}
+
+
+div .list li:first-child {
+	background-color: #3399CC;
+}
+
+div .list li:nth-child(2) {
+	background-color: #33CCCC;
+}
+
+.list li:last-child {
+	background-color: #996699;
+}
+
+div .list_2 li:first-child {
+	background-color: #C24747;
+}
+
+div .list_2 li:nth-child(2) {
+	background-color: #E2674A;
+}
+
+div .list_2 li:nth-child(3) {
+	background-color: #FFCC66;
+}
+
+div .list_2 li:nth-child(4) {
+	background-color: #99CC99;
+}
+
+div .list_3 li:first-child {
+	background-color: #669999;
+}
+
+div .list_3 li:nth-child(2) {
+	background-color: #CC6699;
+}
+
+div .list_3 li:nth-child(3) {
+	background-color: #339966;
+}
+
+div .list_4 li {
+	background-color: #666699;
+}
+
+li p:nth-child(2) {
+	color: #D0F1F9;
+	margin-bottom: 0;
+}
+
+.ds-city-list li {
+	border-bottom: none;
+}
+
+.list_4 li {
+	border-bottom: 2px solid #FFF;
+}
+
+.container:hover li{
+	opacity: 0.5;
+}
+
+.container li:hover {
+	opacity: 1;
+}
+
+footer {
+	color: #D0F1F9;
+	font-size: 15px;
+}

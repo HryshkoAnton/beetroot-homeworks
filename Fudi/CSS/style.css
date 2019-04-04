@@ -1,0 +1,419 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header {
+    background: url(C:/Users/Lnv/Desktop/Beetroot/homeworks/Fudi/img/first-bg.jpg) no-repeat center top / cover;
+
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 23px;
+    float: left;
+}
+
+nav {
+    
+    text-transform: uppercase;
+    display: block;
+}
+
+.navv li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 31px;
+
+}
+
+.navv a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+nav {
+    float: right;
+    margin-top: 35px;
+}
+
+.titles_first {
+    font-size: 22px;
+    font-style: italic;
+    opacity: 0.7;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: center;
+    
+}
+
+i {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 76px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+}
+.titles {
+    color: white;
+    padding-top: 278px;
+    padding-bottom: 42px;
+    letter-spacing: 4px;
+}
+
+
+.button {
+    border: 3px solid white;
+    width: 280px;
+    margin: 0 auto;
+    padding: 24px 80px 28px 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    display: block;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.services {
+    color: black;
+}
+
+.paragraph {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 244px;
+    margin: 0;
+}
+
+.underline {
+    text-decoration: : underline
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 88px;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 100px;
+}
+
+#app {
+    background-color: #f7f7f7;
+    font-family: Lato;
+    letter-spacing: 0.5px;
+}
+
+.iphone {
+    margin-top: 102px;
+    margin-left: -24px;
+    margin-bottom: 0;
+    
+}
+
+
+
+div.text {
+    color: black;
+    margin: 184px 0 0 116px;
+    
+}
+
+div.text p {
+    margin-bottom: 0;
+    
+}
+
+.fudiapp {
+    display: flex;
+    
+
+}
+div.images {
+    margin-top: 29px;
+}
+
+div.iphone {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 160px;
+    left: 68px;
+}
+
+#Michael__Dawson {
+    background-color: #4a3949;
+}
+
+.photo {
+    margin: 0 auto;
+    width: 114px;
+    padding-top: 78px;
+}
+
+.blockquote {
+    text-align: center;
+    padding-top: 33px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+q {
+    font-size: 30px;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.Dawson {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 36px;
+    margin: 0;
+}
+div.circle {
+    display: flex;
+    margin: 0 auto;
+    width: 70px;
+    margin-top: 43px;
+    padding-bottom: 81px;
+
+}
+
+div.circle__item {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+div.circle__item:nth-child(2) {
+    opacity: 0.2;
+}
+
+div.circle__item:last-child {
+    opacity: 0.2;
+}
+
+.container2 {
+
+}
+
+.container2 h3{
+    color: black;
+    text-align: center;
+    margin-top: 99px;
+}
+
+.ul_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.position {
+    width: 20%;
+    height: 225px;
+    position: relative;
+}
+.list {
+    margin-top: 40px;
+}
+
+.list li:first-child {
+    background: url(../img/img1.jpg);
+}
+
+.list li:nth-child(2) {
+    background: url(../img/img2.jpg);
+}
+
+.list li:nth-child(3) {
+    background: url(../img/img3.jpg);
+}
+
+.list li:nth-child(4) {
+    background: url(../img/img4.jpg);
+}
+
+.list li:nth-child(5) {
+    background: url(../img/img5.jpg);
+}
+
+.list li:nth-child(6) {
+    background: url(../img/img6.jpg);
+}
+
+.list li:nth-child(7) {
+    background: url(../img/img7.jpg);
+}
+
+.list li:nth-child(8) {
+    background: url(../img/img8.jpg);
+}
+
+.list li:nth-child(9) {
+    background: url(../img/img9.jpg);
+}
+
+.list li:last-child {
+    background: url(../img/img10.jpg);
+}
+
+.menu p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1.2px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.menu span {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 1.3px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.menu {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+.stk {
+    position: absolute;
+    top: 75px;
+    left: 25px;
+}
+
+.pizza {
+    position: absolute;
+    top: 75px;
+    left: 85px;
+}
+
+.numbers {
+    color: black;
+    margin-top: 62px;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.stats li {
+    width: 20%;
+}
+
+.stats li:first-child {
+    text-align: left;
+}
+
+.stats span {
+    font-size: 36px;
+
+
+}
+
+.stats p {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 13px;
+    padding-bottom: 62px;
+}
+
+footer {
+    color: black;
+    background-color: #f7f7f7;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 14px;
+}
+
+footer p:last-child {
+    float: right;
+    
+}
+
+footer p:first-child {
+    color: #c1c1c1;
+    float: left;
+    opacity: 0.5;
+}
+
+
+.footer {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+footer i {
+    text-decoration: none;
+    color: #a8a8a8;
+}

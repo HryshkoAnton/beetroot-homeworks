@@ -14,7 +14,7 @@ body {
 
 header {
     background: url(C:/Users/Lnv/Desktop/Beetroot/homeworks/Fudi/img/first-bg.jpg) no-repeat center top / cover;
-
+    height: 100vh;
 }
 
 .container {
@@ -181,7 +181,7 @@ div.iphone {
 }
 
 #Michael__Dawson {
-    background-color: #4a3949;
+    background: url(../img/Layer17.jpg);
 }
 
 .photo {
@@ -245,6 +245,7 @@ div.circle__item:last-child {
     color: black;
     text-align: center;
     margin-top: 99px;
+    font-size: 18px;
 }
 
 .ul_list {
@@ -364,12 +365,10 @@ div.circle__item:last-child {
 }
 
 .stats li {
-    width: 20%;
+    flex-grow: 1;
 }
 
-.stats li:first-child {
-    text-align: left;
-}
+
 
 .stats span {
     font-size: 36px;

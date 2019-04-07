@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background: url(C:/Users/Lnv/Desktop/Beetroot/homeworks/Fudi/img/first-bg.jpg) no-repeat center top / cover;
-    height: 100vh;
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+
 }
 
 .container {

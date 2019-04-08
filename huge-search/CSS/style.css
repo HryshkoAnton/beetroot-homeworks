@@ -13,11 +13,12 @@ body {
 .container {
 	width: 1057px;
 	margin: 0 auto;
+	margin-top: 40px;
 
 }
 
 .search {
-	font-size: 88px;
+	font-size: 95px;
 	font-weight: bold;
 	border: none;
 	background-color: #F1F1F1;
@@ -31,9 +32,14 @@ input::-moz-placeholder { color:  #c2c2c2; }
 input::-webkit-input-placeholder { color:  #c2c2c2; }
 
 .people_popular_recent {
-	margin-top: 80px;
+	margin-top: 40px;
 }
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
 
+}
 .people {
 	display: inline-block;
 	width: 29%;
@@ -59,6 +65,7 @@ input::-webkit-input-placeholder { color:  #c2c2c2; }
 	background-color: rgba(118,117,128,0.05);
 	margin-bottom: 5px;
 	border-radius: 5px;
+	padding: 10px 0 10px 10px;
 }
 
 .list span {

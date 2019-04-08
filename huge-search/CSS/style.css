@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F1F1F1;
+	font-family: Arial, sans-serif;
+	color: #c2c2c2;
+}
+
+.container {
+	width: 1057px;
+	margin: 0 auto;
+
+}
+
+.search {
+	font-size: 88px;
+	font-weight: bold;
+	border: none;
+	background-color: #F1F1F1;
+	color: #ec5a62;
+	padding: 0;
+	margin: 0;
+	width: 950px;
+}
+
+input::-moz-placeholder { color:  #c2c2c2; }
+input::-webkit-input-placeholder { color:  #c2c2c2; }
+
+.people_popular_recent {
+	margin-top: 80px;
+}
+
+.people {
+	display: inline-block;
+	width: 29%;
+	margin-right: 50px;
+	
+}
+.people:nth-child(3) {
+	
+	margin-right: 0;
+	
+}
+
+
+.people__photos img {
+	border-radius: 50%;
+}
+.list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list li {
+	background-color: rgba(118,117,128,0.05);
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.list span {
+	vertical-align: 100%;
+	margin-left: 15px;
+}
+
+.list a {
+	text-decoration: none;
+	color: #c2c2c2;
+	font-weight: bold;
+	font-size: 13px;
+	
+	padding-top: 38px;
+	
+}
+
+.list li:hover {
+	background-color: rgba(118,117,128,0.1);
+	color: #ec5a62;
+}
+
+.list li:hover a{
+	color: #ec5a62;
+}

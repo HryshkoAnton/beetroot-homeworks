@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/unsplash.jpg) no-repeat center top / cover;
+	font-family: 'Montserrat', sans-serif;
+	color: #A2AEAF;
+	font-weight: bold;
+
+}
+
+.container {
+	width: 336px;
+	margin: 0 auto;
+	margin-top: 35px;
+	background-color: #ffffff;
+	height: 530px;
+}
+
+header {
+	background-color: #EEE4A9;
+	height: 72px;
+}
+
+.content {
+	width: 288px;
+	margin: 0 auto;
+}
+
+h3, h1 {
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding: 0;
+	padding-top: 0;
+	color: #61726E;
+}
+
+.nameandtotal {
+	float: left;
+}
+
+.summ {
+	float: right;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 14px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+span {
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.forms {
+	margin-top: 45px;
+	font-size: 13px;
+}
+
+.NumerOfCard {
+	width: 100%;
+	
+}
+
+input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px solid #B4C1C4;
+	margin-top: 9px;
+}
+
+.inputs {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Month {
+	margin-right: 8px;
+	width: 60%;
+	
+
+}
+select {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px solid #B4C1C4;
+	margin-top: 9px;
+	color: #61726E;
+	font-weight: bold;
+}
+.Year {
+	width: 40%;
+	margin-left: 8px;
+}
+
+.label_2 {
+	margin-top: 28px;
+}
+
+.CVV__input--enter {
+	width: 33%;
+}
+
+.CVV {
+	font-size: 12px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.Pay {
+	width: 100%;
+	background-color: #26B167;
+	color: #F4F5F5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: none;
+	font-size: 20px;
+}
+
+.Cancel {
+	display: block;
+	text-align: center;
+	margin-top: 22px;
+	color: #ACB6B8;
+}
+
+.example {
+	color: #ACB6B8;
+}

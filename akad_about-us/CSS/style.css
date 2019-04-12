@@ -1,0 +1,305 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #60606E;
+}
+
+header {
+	background: url(../img/Shape14.jpg) no-repeat center top / cover;
+	
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.LogoAndMenu__logo {
+	float: left;
+	margin-top: 43px;
+}
+
+.LogoAndMenu__menu {
+	float: right;
+	margin-top: 43px;
+}
+
+.heading {
+	margin-top: 210px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 166px;
+}
+
+.heading__AboutUs {
+	font-size: 36px;
+	
+}
+
+.heading__HomeAbout {
+	font-size: 14px;
+	margin-top: 29;
+}
+
+.information {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+
+.information__AboutUs {
+	margin-right: 15px;
+}
+
+.information__WhatWeDo {
+	margin-left: 15px;
+}
+
+.information h1 {
+	text-transform: uppercase;
+	margin-bottom: 29px;
+}
+
+.information h4 {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.information p {
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 2em;
+	margin-bottom: 163px;
+}
+
+.SomeBenefits {
+	text-align: center;
+}
+
+.SomeBenefits h1 {
+	text-transform: uppercase;
+	font-size: 30px
+	font-weight: bold;
+	margin-bottom: 29px;
+}
+
+.SomeBenefits p {
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.Benefits__List {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 100px;
+}
+
+.Benefits__List li {
+	float: left;
+	width: calc((100% - 30px * 2) / 3);
+	margin-right: 30px;
+	margin-bottom: 46px;
+}
+
+.Benefits__List li:nth-child(3n+3) {
+	float: right;
+	margin-right: 0;
+}
+
+.Benefits__List li:last-child {
+	
+}
+
+h3 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: 50%;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.Benefits__List p {
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 0.2px;
+}
+
+.Benefits {
+	margin-bottom: 150px;
+}
+
+.TheDreamTeam {
+	text-align: center;
+}
+
+.TheDreamTeam h1 {
+	text-transform: uppercase;
+	font-size: 30px
+	font-weight: bold;
+	margin-bottom: 29px;
+}
+
+.TheDreamTeam p {
+	margin-bottom: 100px;
+}
+
+.DreamTeamPeople__Photos {
+	list-style: none;
+	padding-left: 0;
+}
+
+.DreamTeamPeople__Photos .DreamTeamPeople__Photos__li {
+	float: left;
+	margin-right: 30px;
+	width: calc((100% - 30px * 3) / 4);
+	padding-bottom: 30px;
+}
+
+.DreamTeamPeople__Photos .DreamTeamPeople__Photos__li:nth-child(4n+4) {
+	margin-right: 0;
+	padding-right: 0;
+	float: right;
+}
+
+footer {
+	background-color: #7BEEC7;
+	height: 340px;
+}
+
+.footer__items h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 0;
+
+}
+
+.GetInTouch {
+	width: 510px;
+	color: #FFFFFF;
+	padding-top: 50px;
+	line-height: 3em;
+	float: left;
+}
+
+.GetInTouch__button {
+	background-color: #FFFFFF;
+	color: #7BEEC7;
+	border: none;
+	padding: 18px 31px 18px 31px;
+	box-sizing: border-box;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.form {
+	margin-top: 50px;
+	width: 555px;
+	float: right;
+	background-color: #FFF;
+	color: #656572;
+}
+
+.form__container {
+	width: 510px;
+	margin: 0 auto;
+}
+
+.form__container h1 {
+	font-size: 24px;
+	margin-top: 21px;
+}
+
+.form__container p {
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #999999;
+}
+.EmailSend {
+	display: flex;
+	margin-bottom: 18px;
+}
+.email {
+	width: 75%;
+	border: 1px solid #E5E5E5;
+	margin: 0;
+	padding: 21px 0 18px 19px;
+	color: #CDCDCD;
+
+
+}
+
+.Send {
+	width: 25%;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background-color: #81EEC9;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+::-webkit-input-placeholder {
+	color:#CDCDCD;
+	text-transform: uppercase;
+}
+::-moz-placeholder          {
+	color:#CDCDCD;
+	text-transform: uppercase;
+	}/* Firefox 19+ */
+:-moz-placeholder           {
+	color:#CDCDCD;
+	text-transform: uppercase;
+	}/* Firefox 18- */
+:-ms-input-placeholder      {
+	color:#CDCDCD;
+	text-transform: uppercase;
+}
+
+.green {
+	position: relative;
+}
+
+.GreenSquare {
+	width: 55px;
+	height: 19px;
+	position: absolute;
+	background-color: #7BEEC7;
+	z-index: -1;
+}
+
+.GreenSquare1 {
+	bottom: -5px;
+}
+
+.GreenSquare2 {
+	bottom: -5px;
+	left: 468px;
+}
+
+.GreenSquare3 {
+	bottom: -5px;
+	left: 454px;
+}

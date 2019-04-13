@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E2E7EC;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 83%;
+	margin: 0 auto;
+	margin-top: 91px;
+	
+}
+
+.blog__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.blog__items__item:first-child {
+	flex-basis: 740px;
+}
+
+
+.blog__items__item {
+	background-color: #FFF;
+	flex-basis: 360px;
+	height: 540px;
+	margin-bottom: 20px;
+	
+}
+
+.concept_cars {
+	background: url(../img/Rectangle4copy7.png);
+
+}
+
+.heading {
+	text-transform: uppercase;
+}
+
+.heading h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #1D1D1D;
+	margin: 0;
+}
+
+.heading span {
+	font-size: 13px;
+	color: #818181;
+}
+
+.concept_cars h1, .concept_cars span {
+	color: #FFFFFF;
+}
+
+.info {
+	margin-left: 27px;
+	margin-top: 29px;
+}
+
+.info h1 {
+	margin-top: 21px;
+	line-height: 1.4em;
+}
+
+
+.photo__human {
+	margin-top: 52px;
+}
+
+.heading__Growth {
+	
+	margin-top: 67px;
+}
+
+.heading__Growth h1 {
+	
+	margin: 0;
+}
+
+.concept_cars__heading {
+	margin-left: 44px;
+	margin-top: 405px;
+}
+
+.concept_cars__heading h1 {
+	margin-top: 21px;
+	font-size: 30px;
+}
+
+.concept_cars__heading span {
+	color: #99968F;
+}
+
+.footer__items {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 102px;
+}
+
+.footer__items__span {
+	vertical-align: 50%;
+	margin-left: 13px;
+	color: #99A5B0;
+	font-size: 13px;
+}

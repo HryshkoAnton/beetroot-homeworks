@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>design-lab</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+	<svg style='display: none;'>
+			<symbol id='logo'
+	 xmlns="http://www.w3.org/2000/svg"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 width="70px" height="72px">
+	<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+	 d="M63.675,68.857 L34.860,13.860 L6.046,68.857 L63.675,68.857 Z"/>
+	<path fill-rule="evenodd"  stroke="rgb(246, 247, 252)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+	 d="M34.500,1.000 C53.002,1.000 68.000,15.870 68.000,34.214 C68.000,52.558 53.002,67.429 34.500,67.429 C15.998,67.429 1.000,52.558 1.000,34.214 C1.000,15.870 15.998,1.000 34.500,1.000 Z"/>
+	<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+	 d="M34.860,63.857 C36.850,63.857 38.462,65.456 38.462,67.429 C38.462,69.401 36.850,71.000 34.860,71.000 C32.871,71.000 31.258,69.401 31.258,67.429 C31.258,65.456 32.871,63.857 34.860,63.857 Z"/>
+	<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+	 d="M61.516,63.857 C63.505,63.857 65.118,65.456 65.118,67.429 C65.118,69.401 63.505,71.000 61.516,71.000 C59.527,71.000 57.914,69.401 57.914,67.429 C57.914,65.456 59.527,63.857 61.516,63.857 Z"/>
+	<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+	 d="M6.043,63.857 C8.032,63.857 9.645,65.456 9.645,67.429 C9.645,69.401 8.032,71.000 6.043,71.000 C4.054,71.000 2.441,69.401 2.441,67.429 C2.441,65.456 4.054,63.857 6.043,63.857 Z"/>
+	</symbol>
+			<symbol class='scroll' id='scroll' xmlns="http://www.w3.org/2000/svg" width="23" height="37" viewBox="0 0 23 37">
+		  	<defs>
+		    <style>
+		    
+		     .scroll > .cls-1 {
+		        fill: #fff;
+		        fill-rule: evenodd;
+
+		      }
+		    </style>
+		  	</defs>
+		  	<path id="scroll.svg" class="cls-1" d="M961.5,929.757a1.659,1.659,0,1,0,1.657,1.659A1.66,1.66,0,0,0,961.5,929.757Zm-0.954-9.764A11.475,11.475,0,0,0,950,931.416V945.49a11.5,11.5,0,1,0,23,0V931.416a11.481,11.481,0,0,0-10.545-11.423m-0.954,35.1a9.607,9.607,0,0,1-9.591-9.6V931.416a9.591,9.591,0,1,1,19.182,0V945.49A9.607,9.607,0,0,1,961.5,955.091Z" transform="translate(-950 -920)"/>
+		</symbol>
+		<symbol id='Shape2' xmlns="http://www.w3.org/2000/svg" width="79.969" height="83.03" viewBox="0 0 79.969 83.03">
+		  <defs>
+		    <style>
+		      .cls-1 {
+		        fill: #3c3c3c;
+		        fill-rule: evenodd;
+		      }
+		    </style>
+		  </defs>
+		  <path id="Shape2.svg" class="cls-1" d="M994.956,2434.99H983.032a2.015,2.015,0,0,0-2.025,2.02v4.17H932.86v-4.17a2.015,2.015,0,0,0-2.024-2.02H919.024a2.015,2.015,0,0,0-2.025,2.02v12.27a2.015,2.015,0,0,0,2.025,2.02h11.924a2.015,2.015,0,0,0,2.025-2.02v-4.17h22.161c-0.225,4.95-12.262,28.24-19.911,41.97a2.073,2.073,0,0,0,.45,2.47c6.862,5.85,8.549,11.59,9,14.52h-2.587a2.015,2.015,0,0,0-2.025,2.02v9.9a2.018,2.018,0,0,0,2.025,2.03h29.923a2.018,2.018,0,0,0,2.025-2.03v-9.9a2.015,2.015,0,0,0-2.025-2.02H969.42c0.45-2.93,2.138-8.67,9-14.52a2.045,2.045,0,0,0,.45-2.47c-7.65-13.73-19.686-37.13-19.911-41.97h22.048v4.17a2.015,2.015,0,0,0,2.025,2.02h11.924a2.015,2.015,0,0,0,2.025-2.02v-12.27A2.015,2.015,0,0,0,994.956,2434.99Zm-66.033,12.26h-7.987v-8.32h7.987v8.32Zm28.123,32.97a2.585,2.585,0,1,1-2.587,2.58A2.689,2.689,0,0,1,957.046,2480.22Zm13.049,33.64H944.11v-5.97H970.1v5.97Zm-4.612-9.91H948.609c-0.45-3.26-2.137-9.78-9.224-16.42,2.7-4.95,10.8-19.8,15.636-30.83v19.92a6.439,6.439,0,0,0-4.5,6.18,6.525,6.525,0,1,0,8.549-6.18v-20.03c4.95,11.03,12.937,25.88,15.636,30.94C967.621,2494.17,965.933,2500.69,965.483,2503.95Zm27.561-56.7h-7.987v-8.21h7.987v8.21Z" transform="translate(-917 -2435)"/>
+		</symbol>
+		<symbol id='Shape3' xmlns="http://www.w3.org/2000/svg" width="79" height="76" viewBox="0 0 79 76">
+		  <defs>
+		    <style>
+		      .cls-1 {
+		        fill: #3c3c3c;
+		        fill-rule: evenodd;
+		      }
+		    </style>
+		  </defs>
+		  <path id="Shape3.svg" class="cls-1" d="M994.921,2886H920.078a2.09,2.09,0,0,1-2.08-2.1v-60.92a2.09,2.09,0,0,1,2.08-2.1h74.843a2.09,2.09,0,0,1,2.079,2.1v60.92A2.09,2.09,0,0,1,994.921,2886Zm-72.765-4.2h70.686v-56.72H922.156v56.72Zm72.765-56.72H920.078a2.09,2.09,0,0,1-2.08-2.1v-10.89a2.09,2.09,0,0,1,2.08-2.1h74.843a2.09,2.09,0,0,1,2.079,2.1v10.89A2.09,2.09,0,0,1,994.921,2825.08Zm-72.765-4.2h70.686v-6.69H922.156v6.69Zm5.025-4.81a1.47,1.47,0,1,1-1.455,1.47A1.463,1.463,0,0,1,927.181,2816.07Zm4.35,0a1.465,1.465,0,1,1-1.453,1.47A1.463,1.463,0,0,1,931.531,2816.07Zm4.35,0a1.47,1.47,0,1,1-1.454,1.47A1.463,1.463,0,0,1,935.881,2816.07Zm11.164,43.11a1.8,1.8,0,0,1-1.286-.54l-5.66-5.71a1.851,1.851,0,0,1,0-2.6l5.649-5.71a1.82,1.82,0,0,1,2.573,0,1.851,1.851,0,0,1,0,2.6l-4.364,4.41,4.374,4.41a1.853,1.853,0,0,1,0,2.6A1.8,1.8,0,0,1,947.045,2859.18Zm20.917,0a1.8,1.8,0,0,1-1.286-.54,1.851,1.851,0,0,1,0-2.6l4.365-4.4-4.375-4.42a1.853,1.853,0,0,1,0-2.6,1.819,1.819,0,0,1,2.572,0l5.66,5.72a1.837,1.837,0,0,1,0,2.59l-5.651,5.71A1.8,1.8,0,0,1,967.962,2859.18Zm-13.069,4.24a1.767,1.767,0,0,1-.452-0.06,1.835,1.835,0,0,1-1.312-2.23l4.623-18.28a1.818,1.818,0,0,1,2.212-1.33,1.842,1.842,0,0,1,1.314,2.24l-4.624,18.28A1.821,1.821,0,0,1,954.893,2863.42Z" transform="translate(-918 -2810)"/>
+		</symbol>
+		<symbol id='Shape4' xmlns="http://www.w3.org/2000/svg" width="78.969" height="91" viewBox="0 0 78.969 91">
+		  <defs>
+		    <style>
+		      .cls-1 {
+		        fill: #3c3c3c;
+		        fill-rule: evenodd;
+		      }
+		    </style>
+		  </defs>
+		  <path id="Shape4.svg" class="cls-1" d="M939.756,3177.11a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.546,1.546,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3177.11Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3174.04Zm-32.555,29.75a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.546,1.546,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3203.79Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3200.72Zm-32.555,16.42a1.589,1.589,0,0,1-1.109-.46l-3.1-3.08a1.548,1.548,0,0,1,0-2.2,1.574,1.574,0,0,1,2.219,0l1.989,1.97,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.557,1.557,0,0,1,0,2.21l-6.2,6.15A1.6,1.6,0,0,1,939.756,3217.14Zm32.555-3.08H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3214.06Zm-32.555-23.61a1.579,1.579,0,0,1-1.109-.45l-3.1-3.08a1.56,1.56,0,0,1,0-2.21,1.593,1.593,0,0,1,2.219,0l1.989,1.98,5.086-5.05a1.574,1.574,0,0,1,2.219,0,1.545,1.545,0,0,1,0,2.2l-6.2,6.16A1.589,1.589,0,0,1,939.756,3190.45Zm32.555-3.07H953.637a1.56,1.56,0,1,1,0-3.12h18.674A1.56,1.56,0,1,1,972.311,3187.38Zm22.577-36.98H976.422a6.132,6.132,0,0,0-6.141-5.68H964.3a5.812,5.812,0,0,0-11.623,0h-5.994a6.128,6.128,0,0,0-6.131,5.68H920.081a2.088,2.088,0,0,0-2.092,2.08v75.44a2.082,2.082,0,0,0,2.092,2.08h74.807a2.083,2.083,0,0,0,2.093-2.08v-75.44A2.089,2.089,0,0,0,994.888,3150.4Zm-50.177.44a1.965,1.965,0,0,1,1.968-1.96h6.539a3.63,3.63,0,0,0,3.641-3.61v-0.48a1.627,1.627,0,0,1,3.254,0v0.48a3.627,3.627,0,0,0,3.63,3.61h6.539a1.966,1.966,0,0,1,1.977,1.96v4.26H944.713v-4.26h0Zm48.085,75H922.173v-71.28h18.353v2.62a2.082,2.082,0,0,0,2.092,2.08h31.731a2.082,2.082,0,0,0,2.092-2.08v-2.62h16.353v71.28h0Zm-34.311-76.7a2,2,0,1,1-2.01,2A2,2,0,0,1,958.485,3149.14Z" transform="translate(-918 -3139)"/>
+		</symbol>
+	</svg>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<svg width="70px" height="72px">
+ 					<use xlink:href="#logo"></use>
+ 				<svg>
+			</div>
+			<div class="heading__container">
+				<div class="heading">
+				<h1>
+					WORKING <br>
+					WITH design LAB
+				</h1>
+				<span>
+					We’ve been helping startups launch and grow their businesses. <br> We help you to fill the gap between development, <br> 
+					design and product management.
+				</span>
+			</div>
+			</div>
+			
+			<div class="scroll">
+				<a href="#">
+					<svg width="23" height="37">
+ 						<use xlink:href="#scroll"></use>
+ 					<svg>
+				</a>
+			</div>
+			
+		</div>
+	</header>
+	<section id="section__aboutus">
+		<div class="container">
+			<div class="AboutUs">
+				<div class="head">
+					<h2>
+					About Us
+					</h2>
+				</div>
+				<div class="paragraphs">
+					<div class="paragraph__one">
+					<p>
+						When you work with us, you are part of a team of committed collaborators. 
+						All aspects of our software development process are integrated, iterative and agile.
+					</p>
+				</div>
+				<div class="paragraph__two">
+					<p>
+						Our approach unifies design, development and <br>
+						product management to create exceptional products. <br>
+						We start each project by understanding your business goals, <br>
+						the user’s needs and the product requirements. <br>
+						Then we help translate them into effective and elegant solutions.
+					</p>
+				</div>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+	</section>
+	<section id="section__services" class="background__image">
+		<div class="container">
+			<div class="Services">
+				<div class="Services__block">
+				<div class="head head__2">
+					<h2>
+					Services
+					</h2>
+				</div>
+				<div class="paragraphs__services">
+					<div class="paragraph">
+						<p>
+							Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. <br>
+							The outcome of this scoping session is a proposal or high-level statement of work. <br>
+							Based on your requirements, we can provide a complete offering or just the pieces you need. 
+						</p>
+					</div>
+				</div>
+				
+				
+			</div>
+			</div>
+			
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="container__border">
+				<div class="head">
+				<h2>
+					What we do
+				</h2>
+			</div>
+			<div class="WhatWeDo__section">
+				<div class="WhatWeDo__item">
+					<svg width="79.969" height="83.03">
+	 					<use xlink:href="#Shape2"></use>
+	 				<svg>
+		 			<h3>
+		 				Design
+		 			</h3>
+		 			<p class='WhatWeDo__item--paragraph'>
+		 				Our design practice offers a full range of services including branding strategy,
+		 				interaction and visual design and user experience testing. 
+
+		 			</p>
+		 			<p>
+		 				Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed. 
+		 			</p>
+				</div>
+				<div class="WhatWeDo__item">
+					<svg width="79.969" height="83.03">
+	 					<use xlink:href="#Shape3"></use>
+	 				<svg>
+		 			<h3>
+		 				Development
+		 			</h3>
+		 			<p class='WhatWeDo__item--paragraph'>
+		 				All engineers are fluent in the latest enterprise, mobile and web development technologies. 
+						They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing. 
+
+		 			</p>
+				</div>
+				<div class="WhatWeDo__item">
+					<svg width="79.969" height="83.03">
+	 					<use xlink:href="#Shape4"></use>
+	 				<svg>
+		 			<h3>
+		 				Product Management 
+		 			</h3>
+		 			<p class='WhatWeDo__item--paragraph'>
+		 				Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. 
+
+		 			</p>
+				</div>
+			</div>
+			</div>
+			
+			
+			
+		</div>
+	</section>
+	<section id="pictures">
+		<div class="pictures__box">
+			<ul class="pictures__box__list">
+				<li>
+					<span>
+						topworkz
+					</span>
+				</li>
+				<li>
+					<span>
+						Joint
+					</span>
+				</li>
+				<li>
+					<span>
+						MArket
+					</span>
+				</li>
+				<li>
+					<span>
+						worktop
+					</span>
+				</li>
+				<li>
+					<span>
+						worktop
+					</span>
+				</li>
+				<li>
+					<span>
+						Kyiv
+					</span>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="AboutUs">
+				<div class="head ContactUs">
+					<h2>
+						Contact Us
+					</h2>
+				</div>
+				<div class="ContactUs__paragraphs">
+					<div class="paragraph__one">
+					<p>
+						Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. 
+					</p>
+					<div class="ContactUs__button">
+						<button>
+							Contact Us
+						</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<img src="img/Ellipse1copy12.png" alt="logo">
+			<span>
+				© 2014. All Rights Reserved Ellipsis.com
+			</span>
+		</div>
+		
+	</footer>
+</body>
+</html>

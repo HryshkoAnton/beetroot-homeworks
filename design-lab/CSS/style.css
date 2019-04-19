@@ -1,0 +1,307 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 903px;
+	margin: 0 auto;
+
+}
+
+header {
+	background: url(../img/hero-bg.jpg) no-repeat center top / cover;
+
+	text-align: center;
+}
+
+.logo {
+	padding-top: 285px;
+}
+
+.scroll {
+	padding-top: 245px;
+	padding-bottom: 115px;
+}
+
+.heading {
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.heading h1 {
+	letter-spacing: 0.16em;
+	font-size: 54px;
+	font-weight: bold;
+	margin-top: 94px;
+	margin-bottom: 54px;
+}
+
+.heading__container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.heading span {
+	font-size: 15px;
+	line-height: 2em;
+}
+
+.AboutUs {
+	text-align: center;
+	border: 2px solid black;
+	border-top: 0;
+	margin-top: 160px;
+	
+	
+
+
+}
+
+.head {
+	display: flex;
+}
+.head:before {
+    display: block;
+    content: "";
+    
+    height: 2px;
+    border-top: 2px solid black;
+	flex: 2 0 0;
+  }
+
+  .head:after {
+    display: block;
+    content: "";
+    
+    height: 2px;
+	flex: 2 0 0;
+    border-top: 2px solid black;
+
+  }
+
+  .AboutUs h2 {
+  	width: 420px;
+  	text-transform: uppercase;
+	margin-top: -20px;
+	font-size: 34px;
+	letter-spacing: 0.16em;
+  }
+
+.paragraphs {
+	margin-top: 42px;
+	padding-bottom: 27px;
+
+}
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+.paragraph__one {
+  	width: 535px;
+  	margin: 0 auto;
+}
+
+.paragraph__two p {
+  	width: 450px;
+  	margin: 0 auto;
+  	margin-top: 34px;
+
+}
+
+.background__image {
+	background: url(../img/services.jpg) no-repeat center top / cover;
+	
+}
+
+.Services {
+	color: #FFFFFF;
+	text-align: center;
+	border: 2px solid white;
+	border-top: 0;
+	
+}
+
+.Services h2 {
+	text-transform: uppercase;
+	margin-top: -20px;
+	width: 420px;
+	letter-spacing: 0.16em;
+}
+
+#section__aboutus {
+	padding-bottom: 159px;
+}
+
+#section__services {
+	padding-top: 123px;
+	padding-bottom: 109px;
+}
+
+.head__2:before {
+	height: 2px;
+    border-top: 2px solid white;
+}
+
+.head__2:after {
+	height: 2px;
+    border-top: 2px solid white;
+}
+
+.paragraph {
+	width: 555px;
+	margin: 0 auto;
+	line-height: 2em;
+	margin-top: 34px;
+	padding-bottom: 27px;
+}
+
+.WhatWeDo__section {
+	text-align: center;
+	width: 560px;
+	margin: 0 auto;
+}
+
+.container__border {
+	border: 2px solid black;
+	border-top: 0;
+	margin-top: 119px;
+	padding-bottom: 90px;
+}
+
+.head h2 {
+	text-transform: uppercase;
+	margin-top: -20px;
+	width: 420px;
+	letter-spacing: 0.16em;
+	text-align: center;
+	font-size: 34px;
+}
+
+.WhatWeDo__section h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.16em;
+}
+
+.WhatWeDo__item {
+	padding-top: 92px;
+}
+
+.WhatWeDo__item h3 {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+.WhatWeDo__item--paragraph {
+	padding-top: 37px;
+}
+
+
+.pictures__box__list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	margin-top: 0;
+	flex-wrap: wrap;
+	padding-top: 114px;
+	
+}
+.pictures__box__list li {
+	flex-basis: 400px;
+	height: 200px;
+	margin-bottom: 10px;
+	position: relative;
+
+}
+
+
+.pictures__box__list li:nth-child(2) {
+	flex-basis: 525px;
+	
+}
+
+.pictures__box__list li:nth-child(5) {
+	flex-basis: 525px;
+	
+}
+
+
+
+.pictures__box__list li:first-child {
+	background: url(../img/Layer5copy.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list li:nth-child(2) {
+	background: url(../img/Layer5copy3.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list li:nth-child(3) {
+	background: url(../img/Layer5copy2.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list li:nth-child(4) {
+	background: url(../img/Layer5copy5.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list li:nth-child(5) {
+	background: url(../img/Layer5copy6.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list li:nth-child(6) {
+	background: url(../img/Layer5copy4.jpg) no-repeat center top / cover;
+}
+
+.pictures__box__list span {
+	font-size: 34px;
+	color: #FFF;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 30px;
+	left: 16px;
+}
+
+.ContactUs h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.ContactUs__paragraphs {
+	padding-top: 35px;
+	font-size: 16px;
+	color: #555555;
+	padding-bottom: 48px;
+}
+
+.ContactUs__button button{
+	width: 395px;
+	background-color: #393939;
+	color: #FFF;
+	border: none;
+	text-transform: uppercase;
+	padding: 23px 0 24px 0;
+	font-size: 16px;
+	letter-spacing: 0.16em;
+	margin-top: 62px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 63px;
+}
+
+footer span {
+	vertical-align: 50%;
+	margin-left: 36px;
+	font-size: 14px;
+	padding-bottom: 65px;
+}

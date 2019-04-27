@@ -1,0 +1,209 @@
+/* 
+=========================================================
+1.Global CSS styles
+=========================================================
+*/
+:root {
+	--light: #fff;
+	--dark: #444444;
+
+	--ff: 'Poppins', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--ff);
+}
+
+h1,h2,h3,h4,h5,p,span,ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+	width: 100%;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* 
+=========================================================
+2.Header
+=========================================================
+*/
+
+#header {
+	background: url(../img/Bg1.jpg) no-repeat center top / cover;
+	padding-bottom: ;
+	height: 100vh;
+	text-align: center;
+}
+
+.logo {
+	float: left;
+	margin-top: 30px;
+}
+
+.navigation {
+	float: right;
+	margin-top: 35px;
+}
+
+
+.navigation__menu {
+	display: flex;
+	list-style: none;
+}
+
+.navigation__menu li{
+	margin-left: 35px;
+}
+
+.navigation__menu li a{
+	color: var(--light);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.titles {
+	color: var(--light);
+	
+	margin-top: 235px;
+}
+
+.titles__first {
+	font-size: 60px;
+	margin-bottom: 15px;
+}
+
+.titles__second {
+	font-size: 30px;
+
+}
+
+.header__button {
+	font-size: 16px;
+ 	background-color: transparent;
+ 	color: var(--light);
+ 	padding: 15px 19px;
+ 	border: 2px solid #EBEBEB;
+ 	border-radius: 9px;
+ 	font-weight: 700;
+ 	margin-top: 75px;
+}
+
+
+/* 
+=========================================================
+3.Section
+=========================================================
+*/
+
+#DesignBattles__section {
+	padding-top: 150px;
+	padding-bottom: 153px;
+}
+
+.DesignBattles__section--title {
+	color: #E71CB4;
+	font-size: 62px;
+}
+
+.DesignBattles__section--paragraph {
+	font-size: 32px;
+	margin-top: 100px;
+	line-height: 1.5em;
+}
+
+.DesignBattles__section--h2 {
+	font-size: 36px;
+	margin-top: 135px;
+	margin-bottom: 90px;
+}
+
+.lists {
+	display: flex;
+	justify-content: space-around;
+}
+
+.lists li{
+	display: flex;
+	margin-bottom: 70px;
+}
+
+.lists img {
+	margin-right: 55px;
+}
+
+.lists li h3 {
+	font-size: 44px;
+	margin-top: -20px;
+	margin-right: 28px;
+}
+
+.list__first li:first-child h3 {
+	color: #FFDE16;
+}
+
+.list__first li:nth-child(2) h3 {
+	color: #FFBD9E;
+}
+
+.list__first li:nth-child(3) h3 {
+	color: #20C9E0;
+}
+
+.list_second li:first-child h3 {
+	color: #2EAC66;
+}
+
+.list_second li:nth-child(2) h3 {
+	color: #FF6179;
+}
+
+.list_second li:nth-child(3) h3 {
+	color: #FFDE16;
+}
+
+.lists span {
+	font-size: 24px;
+	line-height: 1.3em;
+}
+
+.second__paragraph {
+	font-size: 22px;
+	margin-bottom: 80px;
+}
+
+.Submissions {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.Nulla {
+	font-size: 14px;
+	
+}
+
+.Download {
+	color: var(--light);
+	background-color: #C60EBE;
+	font-size: 22px;
+	padding: 22px 76px;
+	border: none;
+	border-radius: 9px;
+	font-weight: 900;
+	margin-top: 50px;
+}

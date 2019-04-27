@@ -1,0 +1,528 @@
+/* 
+=========================================================
+1.Variables
+=========================================================
+*/
+:root {
+	--light: #FFFFFF;
+	--dark: #444444;
+
+	--ff: 'Josefin Sans', sans-serif;
+	--ff-s: 'Aleo', serif;
+
+	--fsz-s: 14px;
+	--fsz-m: 22px;
+	--fsz-l: 36px;
+	--fsz-xl: 48px;
+
+	--fw-r: 400;
+	--fw-m: 500;
+	--fw-b: 700;
+}
+
+
+/* 
+=========================================================
+2.Global CSS styles
+=========================================================
+*/
+
+* {
+	box-sizing: border-box;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--ff);
+	color: var(--light);
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+h1,h2,h3,h4,h5,p,span,ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+	width: 100%;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+
+.main-button {
+	padding: 25px 0;
+	width: 225px;
+	background: url(../img/button_bg.jpg)no-repeat center top / cover;
+	color: var(--light);
+	font-family: var(--ff-s);
+	font-size: var(--fsz-s);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border: none;
+
+}
+
+
+/* 
+=========================================================
+3.Header
+=========================================================
+*/
+
+#heading {
+	background: url(../img/bg1.jpg) no-repeat center top / cover;
+	padding-bottom: ;
+	height: 100vh;
+	text-align: center;
+}
+
+.titles {
+	padding-top: 220px;
+}
+
+.titles__first {
+	font-size: var(--fsz-xl);
+	text-transform: uppercase;
+	font-weight: var(--fw-b);
+	letter-spacing: 0.1em;
+	margin-bottom: 14px;
+}
+
+.titles__second {
+	font-size: var(--fsz-m);
+	letter-spacing: 0.31em;
+	font-weight: var(--fw-r);
+	color: #F2FCFF;
+}
+
+.heading__search {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+.heading__search__input {
+	padding: 25px 0;
+	border: 2px solid #fff;
+	width: 500px;
+	text-align: center;
+	color: #999999;
+}
+
+.heading__button {
+	border: 2px solid #fff;
+	width: 146px;
+	background-color: #5474FD;
+	color: var(--light);
+	font-family: var(--ff-s);
+	font-size: var(--fsz-s);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	position: relative;
+}
+
+.search__icon {
+	position: absolute;
+	right: 11px;
+	bottom: 23px;
+}
+
+.heading__scroll {
+	text-decoration: none;
+	color: var(--light);
+	font-size: var(--fsz-s);
+	font-weight: var(--fw-r);
+}
+
+.heading__scroll__icon {
+	margin-top: 13px;
+}
+
+::-webkit-input-placeholder {color:#999999; text-align: center; letter-spacing: 0.2em; font-size: var(--fsz-s);}
+::-moz-placeholder          {color:#999999; text-align: center; letter-spacing: 0.2em; font-size: var(--fsz-s);}/* Firefox 19+ */
+:-moz-placeholder           {color:#999999; text-align: center; letter-spacing: 0.2em; font-size: var(--fsz-s);}/* Firefox 18- */
+:-ms-input-placeholder      {color:#999999; text-align: center; letter-spacing: 0.2em; font-size: var(--fsz-s);}
+
+
+
+
+/* 
+=========================================================
+4.Section Bhromaon__info
+=========================================================
+*/
+
+
+
+.logo {
+	float: left;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-left: 100px;
+}
+
+.information {
+	float: right;
+	margin-right: 100px;
+}
+
+.information__list {
+	display: flex;
+	list-style: none;
+}
+
+.information__list__link {
+	text-decoration: none;
+	color: var(--light);
+	text-transform: uppercase;
+	font-family: var(--ff-s);
+	font-size: var(--fsz-s)
+}
+
+.information__list__item {
+	margin-left: 40px;
+}
+
+.info_container {
+	padding: 20px 0 15px 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	background-color: #5474FD;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.info_container:hover {
+	background-color: #6157e5;
+}
+
+.info_container--Bhromaon {
+	text-decoration: none;
+	color: var(--light);
+}
+
+
+/* 
+=========================================================
+5.Section Choose_Us
+=========================================================
+*/
+
+#Choose_Us {
+	background: url(../img/bg2.jpg) no-repeat center top / cover;
+	padding-bottom: 130px;
+
+}
+
+.Choose_Us__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.Choose_Us__info {
+	margin-top: 200px;
+	width: 700px;
+
+}
+
+
+.Choose_Us__info__title {
+	font-size: var(--fsz-l);
+	font-family: var(--ff-s);
+	font-weight: var(--fw-r);
+	margin-bottom: 50px;
+}
+
+.Choose_Us__paragraph {
+	font-family: var(--ff);
+	font-size: 16px;
+	
+	line-height: 1.6em;
+	margin-top: 30px;
+	color: #BCBAB9;
+
+}
+
+.Choose_Us__button {
+	margin-top: 45px;
+}
+
+.Choose_Us__images {
+	margin-top: 120px;
+}
+
+.Choose_Us__images_first {
+	margin-left: 160px;
+	
+}
+
+.Choose_Us__images_second {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+=========================================================
+6.Section places
+=========================================================
+*/
+
+#places {
+	background: url(../img/bg3.jpg) no-repeat center top / cover;
+	height: 300px;
+}
+
+.places__container {
+	display: flex;
+	justify-content: space-around;
+	
+	padding: 100px 0 99px 0;
+}
+
+.places__title {
+	font-size: var(--fsz-l);
+	font-weight: var(--fw-r);
+	color: #E8E8E8;
+}
+
+.places__container__img {
+	margin-left: 75px;
+}
+
+
+.places__container--item {
+	text-decoration: none;
+}
+
+
+.places__title:hover {
+	color: #5474FD;
+}
+
+
+
+
+
+
+
+
+/* 
+=========================================================
+7.Section GrandSpain-1
+=========================================================
+*/
+
+#GrandSpain-1 {
+	background: url(../img/bg4.jpg) no-repeat center top / cover;
+	color: #CFCECE;
+	padding: 230px 0 100px 0;
+}
+
+.GrandSpain-container {
+	width: 540px;
+	background: rgba(41, 38, 38, 0.8);
+	
+	padding: 0 30px 50px 30px;
+}
+
+.GrandSpain-container__title-first {
+	padding-top: 48px;
+	font-size: 20px;
+	font-weight: var(--fw-r);
+}
+
+.GrandSpain-container__title-second {
+	padding-top: 25px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: var(--fw-r);
+}
+
+.GrandSpain-container__paragraph {
+	font-size: 16px;
+	padding-top: 25px;
+	line-height: 1.4em;
+	padding-bottom: 50px;
+	font-weight: var(--fw-r);
+}
+
+
+/* 
+=========================================================
+8.Section GrandSpain-2
+=========================================================
+*/
+
+
+#GrandSpain-2 {
+	background: url(../img/bg5.jpg) no-repeat center top / cover;
+	height: 100vh;
+	padding: 230px 0 100px 0;
+	color: #CFCECE;
+}
+
+.GrandSpain-container--right {
+	float: right;
+}
+
+
+/* 
+=========================================================
+9.Section SamSumon
+=========================================================
+*/
+
+#SamSumon {
+	background: url(../img/bg6.jpg) no-repeat center top / cover;
+	
+	padding: 115px 0 200px 0;
+}
+
+.SamSumon__title {
+	text-align: center;
+	font-size: var(--fsz-l);
+	font-weight: var(--fw-r);
+	font-family: var(--ff-s);
+}
+
+.SamSumon__section {
+	background: url(../img/bg-container.jpg) no-repeat center top / cover;
+	height: 285px;
+	margin-top: 90px;
+	color: #E3E3E3;
+	
+}
+
+.SamSumon__section--title {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 48px;
+	font-weight: var(--fw-r);
+}
+
+.SamSumon__section__content {
+	width: 620px;
+	float: right;
+	padding-right: 50px;
+}
+
+
+
+.fa-quote-left {
+	color: #607CFD;
+	
+}
+
+.SamSumon__section--paragraph {
+	padding-top: 40px;
+	line-height: 1.5em;
+	font-weight: var(--fw-r);
+	color: #B8B8B8;
+	font-size: 16px;
+	
+}
+
+
+
+/* 
+=========================================================
+10.footer
+=========================================================
+*/
+
+#contacts {
+	background-color: #232323;
+	padding-top: 120px;
+	text-align: center;
+	padding-bottom: 52px;
+}
+
+.contacts__titles--titleFirst {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: var(--fw-r);
+	padding-bottom: 14px
+}
+
+.contacts__titles--titleSecond {
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+
+.contacts__links__list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: 23px;
+}
+
+.contacts__links__list li {
+	margin-right: 23px;
+}
+
+
+/* 
+=========================================================
+11. hover, active effects
+=========================================================
+*/
+
+
+
+.main-button:hover {
+	
+	color: black;
+	background: #7474e3;
+}
+
+button:hover {
+	background-color: #7474e3;
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+button:active {
+	background-color: #313233;
+	color: black;
+}
+
+.main-button:active {
+	background-color: #313233;
+	color: black;
+	color: var(--light);
+}

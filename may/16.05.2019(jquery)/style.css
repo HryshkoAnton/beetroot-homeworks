@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #292929;
+	font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.navigation_list {
+	display: flex;
+	list-style: none;
+	float: right;
+}
+
+.navigation_list li {
+	margin-right: 30px;
+}
+
+.navigation_list a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.logo {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	margin: 10px 0 0 10px;
+}
+
+.music__card__section {
+	display: block;
+	width: 310px;
+	height: 500px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: aliceblue;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.add_shadow {
+	-webkit-box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+	-moz-box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+	box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+
+}
+
+button {
+	background-color: rgba(25,194,146,1);
+	border: none;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.button_mouseEnter {
+	color: rgba(25,194,146,1);
+	background-color: #0e0d0d;
+}
+
+.My_Playlist_section {
+	padding-top: 60px;
+	background-color: rgb(95, 66, 66);
+}
+
+.currentColor {
+	color: rgba(25,194,146,1);
+}
